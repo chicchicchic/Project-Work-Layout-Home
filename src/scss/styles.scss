@@ -245,8 +245,71 @@ header {
 
   }
 }
-
-
 // Dishes End
+
+
+// Footer Start
+.footer {
+  width: 100%;
+  background-color: $gray-dark-color;
+
+  .social-list-wrap {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-bottom: 1px solid $font-main-color;
+    margin: 0 16px;
+    @media (min-width: 790px) {
+      justify-content: start;
+    }
+  }
+
+  .social-item-link {
+    color: $gray-light-color;
+    font-size: 30px;
+    text-decoration: none;
+
+    @media (min-width: 790px) {
+      padding-left: 26px;
+    }
+
+    &:hover {
+      color: $font-main-color;
+    } 
+
+  }
+
+  .description-website {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+
+  .description-content {
+    color: $gray-light-color;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .created-address-website {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+  }
+
+  .created-address-content {
+    color: $gray-light-color;
+    font-size: 14px;
+    text-align: center;
+
+    .heart-icon {
+      color: $red-color;
+    }
+
+  }
+
+}
+// Footer End
+
 
 

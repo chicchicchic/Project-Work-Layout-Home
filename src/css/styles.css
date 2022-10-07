@@ -259,3 +259,56 @@ header .icons a:hover {
   margin-right: 1rem;
   font-size: 2.5rem;
 }
+
+.footer {
+  width: 100%;
+  background-color: #3d3a3a;
+}
+.footer .social-list-wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+  margin: 0 16px;
+}
+@media (min-width: 790px) {
+  .footer .social-list-wrap {
+    justify-content: start;
+  }
+}
+.footer .social-item-link {
+  color: #8b8686;
+  font-size: 30px;
+  text-decoration: none;
+}
+@media (min-width: 790px) {
+  .footer .social-item-link {
+    padding-left: 26px;
+  }
+}
+.footer .social-item-link:hover {
+  color: #fff;
+}
+.footer .description-website {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.footer .description-content {
+  color: #8b8686;
+  font-size: 14px;
+  text-align: center;
+}
+.footer .created-address-website {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.footer .created-address-content {
+  color: #8b8686;
+  font-size: 14px;
+  text-align: center;
+}
+.footer .created-address-content .heart-icon {
+  color: red;
+}
